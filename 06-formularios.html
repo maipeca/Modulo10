@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Fale Conosco</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="./CSS/formulario.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+	</head>
+	<body>
+
+
+		<header>
+			<h1>Doces e delicias</h1>
+			<h3>PRODUTOS DE CASA</h3>
+
+		</header>
+		<nav>
+			<ul>
+				<li><a href="08-weblayout.html">Home</a></li>
+				<li><a href="07-tabelafinancas.html">Tabelas</a></li>
+				<li><a href="06-formularios.html">Formulario</a></li>
+			</ul>
+		</nav>
+
+
+
+		<section>
+				<h2> TE INVITAMOS PARA TOMAR UM CAFÉ</h2>
+				<h3>Preencha os campos abaixo</h3>
+
+				<form method="post">
+
+					<div class="post__name">
+						<label for="nome">Nome</label><br>
+						<input type="text" name="nome" id="nome" placeholder="Nome:">
+					</div>
+
+					<div class="post__email">
+						<label for="email">E-mail</label><br>
+						<input type="email" name="email" id="email" placeholder="Digite seu email">
+					</div>
+
+					<div class="post__mensagem">
+						<label for="mensagem">Mensagem</label><br>
+						<textarea name="mensagem" id="mensagem" rows="5"></textarea>
+					</div>
+
+					<div>
+						<p>
+							<label>Qual café você prefere?</label>
+							<input type="radio" name="linguagens" value="html"> Café com leite
+							<input type="radio" name="linguagens" value="css"> Café americano
+							<input type="radio" name="linguagens" value="javascript"> Café expresso
+						</p>
+					</div>
+
+					<div>
+						<p>
+							<label>Quais bolos vocè gostaria experimentar?</label>
+							<input type="checkbox" name="linguagens" value="html"> cheesecake
+							<input type="checkbox" name="linguagens" value="css"> carrotcake
+							<input type="checkbox" name="linguagens" value="javascript"> chocolate cake
+						</p>
+					</div>
+
+					<div>
+						<label>Qual a sua cor favorita?</label>
+						<select>
+							<option value="Azul">Azul</option>
+							<option value="Verde">Verde</option>
+							<option value="Vermelho" selected>Vermelho</option>
+						</select>
+					</div>
+
+					<div>
+						<button type="submit">Enviar </button>
+					</div>
+
+				</form>
+
+
+				</section>
+
+
+
+		<footer>
+			<p>Desenvolvido por Maite</p>
+		</footer>
+
+	</body>
+</html>

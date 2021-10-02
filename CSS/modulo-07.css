@@ -1,0 +1,109 @@
+@import url('tabelas.css');
+* {
+  box-sizing: border-box;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+	font-size: 62.5%; /* equivalente a 10px */
+}
+
+h1 {
+	font-size: 2.8rem;
+  font-family: 'Limelight', cursive;
+}
+
+h3 {
+    color:#E8E8E6;
+    font-size: 3.0rem;
+     text-align: center;
+     margin-top: 2rem;}
+
+header {
+  background-color: #211F1E;
+  text-align: center;
+  color: white;
+  margin-top: 2rem;
+}
+nav{
+  background: #44443B;
+  font-size: 1.6rem;
+margin-top: 2rem;
+margin-bottom: 2rem;}
+
+a{
+  color:#E8E8E6;
+  font-weight: bolder;
+  text-align: center;
+  padding: 0.5rem;
+  text-decoration: none;}
+
+nav ul li{
+  display: inline-block;
+  margin: 2rem;}
+
+ul{
+  text-align: center;}
+
+  a:hover{
+     color:black;
+    border: #ff7a59 solid 1px;
+    background:#fff;}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+p {
+	font-weight: normal;
+	font-size: 1.4rem;
+}
+
+
+body {
+	background: url('../images/cake.jfif') center top repeat #EEEEEE;
+}
+
+section {
+	background: rgba(255, 255, 255, 0.50);
+}
+
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #44443B;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;

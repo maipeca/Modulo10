@@ -1,0 +1,174 @@
+html {
+  weight:100%;
+  height: 100%;
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width:100%;
+  height: 100%;
+}
+
+
+/* Color bgnav: #0B2822
+Color par: #AFE9DD
+Font-family nav: roboto
+*/
+
+/*Google Fonts Roboto*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+
+/*MENU NAVEGAÇAON*/
+nav {
+  display: inline-flex;
+  background: green;
+  align-items: center;
+  padding: 2rem;
+  width: 100%;
+  background-color: #0B2822;
+  height: 12rem;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.4rem;
+  margin: 2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2{font-family:'Roboto', sans-serif;}
+
+nav li a:hover {
+  background-color: black;
+  font-weight: bolder;
+}
+
+li {
+  list-style: none;
+}
+
+nav ul {
+  background-color: #0B2822;
+  display: flex;
+  width: 100%;
+  justify-content:flex-end;
+}
+
+img {
+  position: absolute;
+}
+
+
+/*CHAPTER1*/
+
+
+.chapter_1{
+  display:flex;
+  background-color: #AFE9DD;
+  width: 100%;
+  height: 400px;
+  align-items: center;
+  justify-content:center;
+  padding: 3rem;
+}
+
+.image_1-girl {
+  width:60%;
+  height:370px;}
+
+.image_1-girl img {
+  width: 400px;
+
+}
+
+.text_1{
+
+  width: 40%;
+  text-align: center;
+  font-size: 2rem;}
+
+
+/*CHAPTER2 */
+
+.chapter_2{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+
+}
+
+.text_2{
+  width: 100%;
+  height: 10%;
+  font-size: 2rem;
+  text-align: center;
+  flex: 1 1 100%;
+  margin-bottom: 5rem;
+}
+
+.imagen_2-boy{width: 400px; height: 300px; }
+
+.imagen_3-boy{width: 400px; height: 300px; }
+
+
+
+/*CHAPTER3*/
+
+.chapter_3{background-color: #AFE9DD;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 3rem;}
+
+.title_3{
+  flex: 1 1 100%;
+  height: 10%;
+  text-align: center;
+font-size: 2rem;}
+
+.description{
+  width: 400px;
+  height: 400px;
+  text-align: justify;
+  margin-top: 30px;
+}
+
+.description>img{ position: relative;
+  border-radius: 50px;
+  margin-left: 100px;
+}
+
+.desc{
+  font-size: 1.6rem;}
+
+
+footer{
+  background-color:#0B2822;
+  width: 100%;
+  height: 100px;
+  color: white;
+  text-align: center;
+  padding-top: 20px;}
+
+
+/*Mobile firts TABLET*/
+
+@media screen and (max-width: 768px){
+  .chapter_1, .chapter_2, .chapter_3{display: block;height: auto;}
+  .text_1 {width: 100%; margin-bottom: 2rem; padding: 2rem;}
+}
