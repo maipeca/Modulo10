@@ -126,14 +126,17 @@ footer small {
     overflow: hidden !important;
 }
 
-@media (max-width: 425px) {
-    section nav,
-    section article {
+@media (max-width: 600px) {
+    .maincontainer {
         width: 100%;
     }  
 
-    .container {
+    .maincontainer {
         padding-left: 1%;
         padding-right: 1%;
     }
+}
+
+@media (max-width: 476px){
+    nav ul {width: 100%; flex:1; flex-wrap: nowrap;}
 }
