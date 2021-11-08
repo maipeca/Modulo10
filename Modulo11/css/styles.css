@@ -54,7 +54,8 @@ header nav ul{
    color: #f2f2f2;
 
 }
- 
+
+nav ul li a {text-decoration: none; color: white;}
 
 nav {
     background-color:#343BBF; 
@@ -65,7 +66,7 @@ nav {
     margin-top: 4rem;
 }
 
- nav li:hover {
+ nav li a:hover {
      color:#F2D852; 
      font-weight: bold;}
 
@@ -100,7 +101,14 @@ section article {
 
 section article ul, ol {margin-left: 5rem; margin-top: 2rem; line-height: 2.5rem;}
  
+.c-forms-form-body {background:#f2f2f2; }
 
+#form{display: flex;}
+
+.cognito {
+    height: 340px !important;
+    overflow: hidden !important;
+}
 footer {
     background-color: #343BBF;  
     width: 100%;
@@ -117,13 +125,11 @@ footer small {
     display: block;
 }
 
-.c-forms-form-body {background:#f2f2f2; }
 
-.form{display: flex;}
 
-.cognito {
-    height: 340px !important;
-    overflow: hidden !important;
+
+
+
 }
 
 @media (max-width: 600px) {

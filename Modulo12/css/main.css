@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Turret+Road:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Turret+Road:wght@700&display=swap');
+
+/*color navegador: #716A8A
+color font: F3EEEF es como blanco*/
+
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+
+html{font-size: 62.5%;}
+
+header{
+    background: #716A8A;
+    display: flex; 
+    height: 100px;
+    justify-content: space-between;/*El logo y la lista se iran uno a cada esquina*/
+    align-items: center; /*En este caso los elementos de la lista y el logo se podran centrar dentro del header*/
+}
+
+
+nav ul li {
+    list-style: none; 
+    display: inline-block;}/*Asi los elemtnos de la lista se colocaran uno al lado del otro*/
+
+nav ul li a{
+        text-decoration: none;
+        color: #F3EEEF;
+        font-size: 1.6rem;
+        font-family: 'Russo One', sans-serif;
+        display: block;/*Esto se hace para que a los elementos se les pueda añair padding y otras caracteristicas*/
+        padding: 0.5rem 3.0rem;
+        letter-spacing: 0.20em;}
+
+.logo{margin-left: 2rem;}
+
+    
+
