@@ -1,0 +1,107 @@
+/*FONT*/
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@200&family=Russo+One&family=Turret+Road:wght@700&display=swap');
+
+
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+
+html{font-size: 62.5%;}
+
+body{margin:0px 10px;}
+
+.logo{position: absolute;width:20%;}
+
+.logowave{display: flex;width:100%;}
+
+h1{
+    font-size: 3.0rem;
+    letter-spacing: 5px; 
+    line-height: 50px;
+    margin-top: 3rem;
+    }
+
+h3{
+    font-size: 2.2rem; 
+    margin-top: 23px; 
+    letter-spacing: 5px; 
+    line-height: 40px;}
+
+.titulos {
+    width: 40%; height:auto;
+    font-family: 'Mukta Malar', sans-serif; 
+    margin-right: 0rem;
+    }
+
+.gente{width: 60%;}
+
+.boton{margin-top: -5rem; margin-left:3rem;}
+
+section{margin-left: 3rem;}
+
+.main {display: flex;}
+
+.produto{
+    font-size: 1.8rem; 
+    display: flex; 
+    justify-content: space-between; 
+    width: 70%; 
+    height: auto;
+    margin-top: 6rem;}
+
+.contenedor{
+    width: 50%;
+    background: rgba(60, 247, 213, 0.29);
+    font-family: 'Oxygen', sans-serif;
+    border-radius: 27px;
+    margin: 1rem
+    ;}
+
+.contenedor>h4,p{margin: 10px;}
+
+.contenedor>h4{text-align: center;
+}
+
+.contenedor:first-child h4 {margin-bottom: 30px;}
+
+.oferecemos p{
+    font-size: 1.8rem; 
+    width: 50%;
+    margin: 0 auto; 
+    margin-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.oferecemos{background: #DEE0E4; height: auto; width:95%;}
+.oferecemos h1{text-align: center; margin-bottom: 4rem; padding-top: 3rem;}
+
+
+/*FORMULARIO*/
+#form>h1{
+    font-size:3.6rem;
+    font-family: font-family:'Mukta Malar', sans-serif;
+    margin-top:8rem;
+    text-align:center;}
+
+.cognito {
+    height: 330px !important;
+    overflow: hidden !important;}
+
+
+/*FOOTER*/
+footer>p{
+    color:white; 
+    position: relative; 
+    margin-top: -2rem; 
+    text-align: right;}
+
+
+/*RESPONSIVE DESIGN*/
+@media only screen and (max-width: 768px)
+{.main{display: block;}
+.titulos, .gente, .produto{width: 100%;}
+.boton{margin-top: 4rem;}
+.oferecemos{height: auto;}
+}
+@media only screen and (max-width: 434px){
+.cognito c-safari c-sml{margin-bottom:10rem;}
+.contenedor{width: 100%;}
+.produto{display: block;}}
