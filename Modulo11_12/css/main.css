@@ -26,14 +26,13 @@ h3{
     line-height: 40px;}
 
 .titulos {
-    width: 40%; height:auto;
+    width: 50%; height:auto;
     font-family: 'Mukta Malar', sans-serif; 
-    margin-right: 0rem;
-    }
+    margin-right: 2rem;}
 
-.gente{width: 60%;}
+.gente{width: 40%;margin-top: 4rem;}
 
-.boton{margin-top: -5rem; margin-left:3rem;}
+.boton{margin-top: 0rem; margin-left:3rem;}
 
 section{margin-left: 3rem;}
 
