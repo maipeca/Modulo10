@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemap.org/schemas/sitemap/0.9">
+<url>  
+    <loc>01-homepage.html</loc>
+    <lastmod>2022-10-30</lastmod>
+</url>
+
+<url>  
+    <loc>02-listas-e-links.html</loc>
+    <lastmod>2022-10-02</lastmod>
+</url>
+
+<url>  
+    <loc>03-formatacao-de-texto.html</loc>
+    <lastmod>2022-10-02</lastmod>
+</url>
+
+<url>  
+    <loc>04-tabelas.html</loc>
+    <lastmod>2022-10-02</lastmod>
+</url>
+
+<url>  
+    <loc>05-layouts.html</loc>
+    <lastmod>2022-10-02</lastmod>
+</url>
+
+<url>  
+    <loc>06-formularios.html</loc>
+    <lastmod>2022-10-02</lastmod>
+</url>
+
+<url>  
+    <loc>07-tabelafinancas.html</loc>
+    <lastmod>2022-10-02</lastmod>
+</url>
+
+<url>  
+    <loc>08-weblayout.html</loc>
+    <lastmod>2022-06-22</lastmod>
+</url>
+
+<url>  
+    <loc>09-layoutsweb.html</loc>
+    <lastmod>2022-10-02</lastmod>
+</url>
+
+</urlset>
